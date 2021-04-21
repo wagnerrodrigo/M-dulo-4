@@ -36,7 +36,7 @@ const Generos = () => {
     return (
         <div className='container'>
             <h1>Genêros</h1>
-            <table class="table table-dark">
+            <table className="table table-dark">
                 <thead>
                     <tr>
                         <th scope='col'>Id</th>
