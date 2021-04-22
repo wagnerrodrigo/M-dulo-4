@@ -15,6 +15,7 @@ const NovoGenero = () => {
         })
         .then(res =>{
             setSuccess(true)
+            console.log(res)
         })
     }
     if(success){
