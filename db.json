@@ -15,6 +15,12 @@
     },
     "2": {
       "name": "Comédia"
+    },
+    "3": {
+      "name": "Histórico"
+    },
+    "4": {
+      "name": "Biográfico"
     }
   },
   "count": 0
