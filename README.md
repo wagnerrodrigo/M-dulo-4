@@ -12,12 +12,14 @@
 
  [X] Aula 05: finalizando o Contador de voltas
 
- [] Aula 06: Projeto Minhas séries (Aula 01)
+ [X] Aula 06: Projeto Minhas séries (Aula 01)
 
  [] Aula 07: Projeto Minhas Séries (Aula 02) 
 
 
-
+link de como esta ficando !
+        
+        https://vigilant-elion-263497.netlify.app/
 
 
 
