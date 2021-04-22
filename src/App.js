@@ -1,9 +1,11 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import Header from './Header'
 import Generos from './Generos'
 import NovoGenero from './NovoGenero'
 import EditarGenero from './EditarGenero'
-import axios from 'axios'
+import Series from './Series'
+import NovaSerie from './NovoSerie'
+import InfoSerie from './InfoSerie'
 import './index.css'
 import {
   BrowserRouter as Router,
@@ -20,12 +22,6 @@ const Home = () =>{
 
 
 function App() {
-  const [data, setData] = useState({})
-  useEffect(() =>{
-    axios.get('/api').then(res =>{
-      setData(res.data)
-    })
-  }, [])
   return (
     <Router>
       <div>
@@ -35,6 +31,9 @@ function App() {
           <Route path='/generos' exact component={Generos} />
           <Route path='/generos/novo' exact component={NovoGenero} />
           <Route path='/generos/:id' exact component={EditarGenero} />
+          <Route path='/series' exact component={Series} />
+          <Route path='/series/novo' exact component={NovaSerie} />
+          <Route path='/series/:id' exact component={InfoSerie} />
         </Switch>
       </div>
     </Router>
